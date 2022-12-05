@@ -22,7 +22,7 @@ $ sudo cp clang-14 clang
 ``-mllvm -sub -mllvm -sub_loop=1 -mllvm -fla -mllvm -split -mllvm -split_num=5 -mllvm -bcf -mllvm -bcf_loop=2 -mllvm -bcf_prob=100 -mllvm -sobf`` 
 
 ## Issues
-Compile errors occurred when adding internal framework
+Compile errors occurred when adding Apple's internal framework
 - Project Setting -> Enable Modules (C and Objective-C) : **No**
 
 Compile errors occurred when adding external framework
